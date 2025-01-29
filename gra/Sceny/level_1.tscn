@@ -280,6 +280,7 @@ sources/0 = SubResource("TileSetAtlasSource_dsgfh")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(4, 4)
+limit_left = -110
 position_smoothing_enabled = true
 
 [node name="TileMap" type="TileMap" parent="."]
